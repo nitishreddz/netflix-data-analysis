@@ -1,8 +1,15 @@
 sources:
-  - name: movielens
+  - name: netflix #Name of source(need not be database name)
     schema: raw
     tables:
       - name: raw_movies
+        description: Raw movies from CSV #Just showing we can write description, columns, tests and freshness in sources.yml
+        columns:
+          - name: movie_id
+            description: ID of the movie
+            tests:
+              - unique
+              - not_null
       - name: raw_genome_scores
       - name: raw_genome_tags
       - name: raw_links
