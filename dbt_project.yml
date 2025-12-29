@@ -27,4 +27,5 @@ models:
 
     fct:
       +schema: dev
-      +materialized: table      
+      +materialized: table
+       
