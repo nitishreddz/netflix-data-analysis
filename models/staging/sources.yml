@@ -1,0 +1,10 @@
+sources:
+  - name: movielens
+    schema: raw
+    tables:
+      - name: raw_movies
+      - name: raw_genome_scores
+      - name: raw_genome_tags
+      - name: raw_links
+      - name: raw_ratings
+      - name: raw_tags
