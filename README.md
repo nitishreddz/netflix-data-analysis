@@ -1,6 +1,6 @@
 # netflix-data-analysis
 
-raw->staging
+raw->staging(views)->dimensional modeling(multiple dim and one fact)incremental tables
 
 
 materialization in DBT
