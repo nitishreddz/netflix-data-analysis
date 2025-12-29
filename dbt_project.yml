@@ -24,3 +24,7 @@ models:
     dim:
       +schema: dev
       +materialized: table
+
+    fct:
+      +schema: dev
+      +materialized: table      
