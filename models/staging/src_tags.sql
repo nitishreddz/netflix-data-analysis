@@ -1,5 +1,7 @@
+{{config(materialized='table')}}
+
 WITH raw_tags AS(
-    SELECT * FROM {{source('movielens','raw_tags')}}
+    SELECT * FROM {{source('netflix','raw_tags')}}
 )
 SELECT
     userId AS user_id,
