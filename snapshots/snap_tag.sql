@@ -5,7 +5,7 @@
         unique_key=['user_id','movie_id','tag'],
         strategy='timestamp',
         updated_at='tag_timestamp',
-        invaliddate_hard_deletes =True
+        invalidate_hard_deletes  =True
     )
 }}
 
