@@ -3,9 +3,9 @@ sources:
     schema: raw
     tables:
       - name: raw_movies
-        description: Raw movies from CSV #Just showing we can write description, columns, tests and freshness in sources.yml
+        description: Raw movies from CSV #Just showing we can write description, columns, tests and freshness in sources.yml also. But prefer doing this in schema.yml
         columns:
-          - name: movie_id
+          - name: movieid
             description: ID of the movie
             tests:
               - unique
