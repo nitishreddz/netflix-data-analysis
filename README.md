@@ -19,3 +19,6 @@ Testing(Good to define in schema.yml):
 2.Singular: Custom tests
 
 In Generic tests->relations->“For every value in this column, does a matching value exist in the parent table?”
+
+analysis:
+SQL queries that don't create any table
