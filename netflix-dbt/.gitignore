@@ -1,0 +1,21 @@
+# Python
+.venv
+venv/
+env/
+*.pyc
+__pycache__/
+*.egg-info/
+
+# DBT
+target/
+dbt_packages/
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+connection.py
